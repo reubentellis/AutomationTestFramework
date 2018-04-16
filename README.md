@@ -23,7 +23,3 @@ The corresponding step definition files for the above mentioned feature files ar
  
 ## Execution
  
- To execute the code end to end in firefox using maven download the files and in the command prompt run the following:
-        ``` mvn test -Dbrowser=firefox -Dcucumber.options="--tags @End2End"```
- To execute the code end to end in chrome using maven download the files and in the command prompt run the following:
-        ``` mvn test -Dbrowser=chrome -Dcucumber.options="--tags @End2End"```

@@ -9,6 +9,11 @@ When the user selects Dresses tab
 And the user selects Summer Dresses
 Then Summer Dresses page is displayed
 
+# @SortSummerDressesAscending and @SortSummerDressesDescending can be combined by passing a string value for sorting order
+# Use the following expression in place of "ascending" or "descending" 
+# to pass String values to the step definition file: \”(.*)\” and \”(.*)\”$”)
+# Also the logic in the Then condition will need to be verified using If condition
+
 @SortSummerDressesAscending
 Scenario: Sort Summer Dresses Ascending
 Given the user is on Summer Dresses page
